@@ -2,6 +2,8 @@
 
 Getting started app in Angular 2.
 
+git checkout 1009191538467ad98125473903ebc1790592244b
+
 ## Dependencies
 
 We'll be using `npm` to run this project (`npm` will be installed when you install node.js). You can [install node.js here](https://nodejs.org/en/).

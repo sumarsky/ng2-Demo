@@ -4,15 +4,21 @@ import { Component } from "angular2/core";
 @Component({
     selector: "my-app",
     template: `
-        Hello Igor
+        <form>
+            <input name="username" #newUsername placeholder="username">
+            <input name="message" #newMessage placeholder="message">
+            <button (click)="addComment(newUsername, newMessage)">
+                Submit
+            </button>
+        </form>
     `
 })
 class MyApp {
     constructor() {
     }
 
-    addArticle(title: HTMLInputElement, link: HTMLInputElement): void {
-        console.log(`Adding article title: ${title.value} and link: ${link.value}`);
+    addComment(username: HTMLInputElement, message: HTMLInputElement): void {
+        console.log(`Adding comment from: ${username.value} and message: ${message.value}`);
     }
 }
 

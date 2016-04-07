@@ -93,7 +93,7 @@ class MyApp {
         console.log("MyApp.executeIncrease()");
         this.counterUsingComponent.increase();
     }
-    executeDecrease(step: number) {
+    executeDecrease() {
         console.log("MyApp.executeDecrease()");
         this.counterUsingComponent.decrease();
     }

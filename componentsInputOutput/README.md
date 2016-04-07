@@ -1,12 +1,6 @@
-# ng-2-Demo: gettingStarted
+# ng-2-Demo: componentsInputOutput
 
 Getting started app in Angular 2.
-
-DEMO 1:
-git checkout 1009191538467ad98125473903ebc1790592244b
-
-DEMO 2:
-git checkout f67b0417964675fa92a31ecc08c85307115e3fb0
 
 ## Dependencies
 

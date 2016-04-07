@@ -1,4 +1,11 @@
+### gettingStarted ###
 gettingStarted/node_modules
 gettingStarted/app.js
 gettingStarted/app.js.map
 gettingStarted/npm-debug.log.*
+
+### componentsInputOutput ###
+componentsInputOutput/node_modules
+componentsInputOutput/app.js
+componentsInputOutput/app.js.map
+componentsInputOutput/npm-debug.log.*

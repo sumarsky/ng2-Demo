@@ -26,7 +26,7 @@ class Comment {
 }
 
 @Component({
-    selector: 'comment',
+    selector: 'my-comment',
     inputs: ['comment'],
     template: `
         <hr>
@@ -66,10 +66,10 @@ class CommentComponent {
             </button>
         </form>
         <div>
-            <comment 
-                *ngFor="#comment of getSortedComments()" 
-                [comment]="comment">
-            </comment>
+            <my-comment 
+                *ngFor="#item of getSortedComments()" 
+                [comment]="item">
+            </my-comment>
         </div>
     `
 })

@@ -1,9 +1,6 @@
-# ng-2-Demo: componentsInputOutput
+# ng-2-Demo: forms
 
-ComponentsInputOutput app in Angular 2.
-
-DEMO 1:
-git checkout 28634260d599ea0945d34d0e68890972fd2a6215
+Forms app in Angular 2.
 
 ## Dependencies
 

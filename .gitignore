@@ -15,3 +15,9 @@ forms/node_modules
 forms/app.js
 forms/app.js.map
 forms/npm-debug.log.*
+
+### http ###
+http/node_modules
+http/app.js
+http/app.js.map
+http/npm-debug.log.*

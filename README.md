@@ -3,7 +3,8 @@
 1. [gettingStarted](https://github.com/sumarsky/ng2-Demo/tree/master/gettingStarted)
 2. [componentsInputOutput](https://github.com/sumarsky/ng2-Demo/tree/master/componentsInputOutput)
 3. [forms](https://github.com/sumarsky/ng2-Demo/tree/master/forms)
-3. [http](https://github.com/sumarsky/ng2-Demo/tree/master/http)
+4. [http](https://github.com/sumarsky/ng2-Demo/tree/master/http)
+5. [routing](https://github.com/sumarsky/ng2-Demo/tree/master/routing)
 
 All projects have their own README file with instructions how they should be setup and run.
 

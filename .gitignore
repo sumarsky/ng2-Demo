@@ -21,3 +21,9 @@ http/node_modules
 http/app.js
 http/app.js.map
 http/npm-debug.log.*
+
+### routing ###
+routing/node_modules
+routing/app.js
+routing/app.js.map
+routing/npm-debug.log.*

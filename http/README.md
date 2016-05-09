@@ -3,7 +3,7 @@
 Getting started app in Angular 2.
 
 DEMO:
-git checkout 84ece780273f2767a6b6e8d5164aa65d780afc6b
+git checkout 5e23b78910a64eb4ed93bbe4614931e72c7b1dca
 
 ## Dependencies
 

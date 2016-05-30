@@ -26,4 +26,6 @@ http/npm-debug.log.*
 routing/node_modules
 routing/app.js
 routing/app.js.map
+routing/nested.js
+routing/nested.js.map
 routing/npm-debug.log.*

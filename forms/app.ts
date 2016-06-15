@@ -39,7 +39,7 @@ export class form1 {
             <div *ngIf="!myForm.controls['name'].valid" class="alert alert-danger">Name must start with a big letter.</div>
             <div *ngIf="!myForm.valid" class="alert alert-danger">Form is invalid.</div>
             
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" [disabled]="!myForm.valid" class="btn btn-primary">Submit</button>
         </form>
     `
 })
@@ -54,7 +54,7 @@ export class form2 {
             ])]
         });
     }
-
+    
     onSubmit(value: string) {
         console.log(value);
     }

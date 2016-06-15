@@ -5,17 +5,17 @@ export class Counter {
     value: number;
 
     constructor() {
-        this.value = 0;
         console.log("Counter.constructor()");
+        this.value = 0;
     }
 
     increase() {
-        this.value += 1;
         console.log("Counter.increase()");
+        this.value += 1;
     }
     decrease() {        
-        this.value -= 1;
         console.log("Counter.decrease()");
+        this.value -= 1;
     }
 }
 
@@ -32,19 +32,19 @@ class IncreaseDecreaseComponent {
     decrease: EventEmitter<any>;
     
     constructor() {
+        console.log("CounterComponent.constructor()");
         this.increase = new EventEmitter();
         this.decrease = new EventEmitter();
-        console.log("CounterComponent.constructor()");
     }
 
     doIncrease() {
-        this.increase.emit(null);
         console.log("CounterComponent.doIncrease()");
+        this.increase.emit(null);
     }
 
     doDecrease() {
-        this.decrease.emit(null);
         console.log("CounterComponent.doDecrease()");
+        this.decrease.emit(null);
     }
 }
 
@@ -74,9 +74,9 @@ class MyApp {
     private counterUsingComponent: Counter;
 
     constructor() {
+        console.log("MyApp.constructor()");
         this.counter = new Counter();
         this.counterUsingComponent = new Counter();
-        console.log("MyApp.constructor()");
     }
 
     counterIncrease() {
